@@ -1,0 +1,23 @@
+#indice a{
+    color: red;
+    text-decoration: none;
+}
+
+#indice li>a:hover{
+    background-color: White; 
+    color: Gray;
+    text-transform: uppercase;
+    }
+
+#pie a:link{
+    color: #444444;
+    text-decoration: none;
+}
+
+#pie a:hover{
+    background-color: White; 
+    border-style: solid;
+    border-color: black;
+    color: teal;
+    font-style: normal ;
+}

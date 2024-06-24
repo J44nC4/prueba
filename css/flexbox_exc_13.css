@@ -1,0 +1,94 @@
+
+body{
+    margin: 0;
+    padding: 0;
+    background: white;
+}
+
+header{
+    padding: 5px;
+    margin-top: 5px;
+    background: greenyellow;
+    color: antiquewhite;
+}
+
+.contenedor{
+    display: flex;
+    justify-content: center;
+}
+.contenedor p{
+    color: black;
+    text-align: center;
+    margin-right: 10px;
+    font-size: 1em;
+
+}
+.contenedor img{
+    width: 200px;
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+
+}
+nav{
+    justify-content: flex-start;
+    background: green;
+    padding: 1%;
+    letter-spacing: 2px;
+    word-spacing: 15px;
+}
+nav li{
+    display: inline;
+    margin-left: 9%;
+}
+.banner{
+    max-width: 100%;
+    height: auto;
+    width: auto;
+}
+.card{
+    border-radius: 10px;
+    padding: 20px;
+    margin: 12px;
+    min-width: 250px;
+
+}
+.card:nth-child(1){
+    border: rgb(31, 31, 4) solid;
+    background-color: khaki;
+    border-radius: 50px 1px 50px 1px;
+}
+
+.card:nth-child(2){
+    border: rgb(31, 31, 4) solid;
+    background-color: rgb(17, 117, 26);
+    border-radius: 50px 1px 50px 1px;
+}
+
+.card:nth-child(3){
+    border: rgb(31, 31, 4) solid;
+    background-color: rgb(240, 140, 207);
+    border-radius: 50px 1px 50px 1px;
+}
+
+.card h2{
+    color: black;
+    font-size: 45px;
+}
+
+.imagen{
+    max-width: 100px;
+    margin-left: 35px;
+}
+
+.rating{
+    display: inline;
+    margin: 30px;
+}
+input[type="radio" ]{
+    display: none;
+}
+
+label{
+    cursor: pointer;
+}

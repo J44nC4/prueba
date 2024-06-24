@@ -1,0 +1,125 @@
+/* Estilos para la página */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+/* Estilos para la barra de navegación */
+nav {
+    border: solid;
+    background: linear-gradient(#023373 25%,#065ed1,#41BF91);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav li {
+    display: inline-block;
+    margin-inline: 225px;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: #ccc;
+}
+
+/* Estilos para la sección principal */
+#seccion1 {
+    background-image: linear-gradient(to left, #0756F2, #05C7F2);
+    background-size: 100% 400px;
+    background-position: 5% 100%;
+    padding: 0.1em;
+    margin-left: 35%;
+    text-align: center;
+}
+
+#seccion1 h1 {
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+#seccion1 p {
+    font-size: 1.2em;
+    margin-bottom: 2em;
+}
+#image{
+    scale: 50%;
+}
+/* Estilos para la sección lateral */
+#sidebar {
+    width: 30%;
+    background-color: #0756F2;
+    padding: 2em;
+    border: 4px solid #0756F2;
+    float: left;
+    
+}
+
+#sidebar form {
+    margin-bottom: 2em;
+}
+
+#sidebar label {
+    display: block;
+    margin-bottom: 0.5em;
+}
+
+#sidebar input[type="text"],
+#sidebar input[type="email"] {
+    width: 100%;
+    height: 2em;
+    margin-bottom: 1em;
+    padding: 0.5em;
+    border: 1px solid #ccc;
+}
+
+#sidebar input[type="submit"] {
+    width: 100%;
+    height: 2.5em;
+    background-color: #41BF91;
+    color: #023373;
+    border: none;
+    padding: 0.5em;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+
+#sidebar input[type="submit"]:hover {
+    background-color: #3e8e41;
+}
+.sidebar{
+    position: absolute;
+    top: 18%;
+    left: 1%;
+    height: 10%;
+    width: 100%;
+}
+
+/* Estilos para el pie de página */
+footer {
+    margin-top: 2%;
+    background: radial-gradient(circle, #41BF91 12%,#05C7F2 50%,#DF4BF2 80%);
+    color: #fff;
+    padding: 1em;
+    text-align: center;
+    clear: both;
+}
+#nombre{
+    background: linear-gradient(to right , #DF4BF2, #023373);
+}
+#email{
+    background: linear-gradient(to right , #41BF91, #DF4BF2);
+}
+
+

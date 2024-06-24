@@ -1,0 +1,19 @@
+body{
+    background-image: url(/IMG/water-fizzle.jpg);
+}
+
+.cabecera{
+    background-image: url(/IMG/kandinsky.jpg);
+}
+
+#indice{
+    background-image: url(/IMG/water.jpg);
+}
+
+.contenido{
+    background-image: url(/IMG/vangogh2.jpg);
+}
+
+#pie{
+    background-image: url(/IMG/paulklee.jpg);
+}

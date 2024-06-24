@@ -1,0 +1,26 @@
+.contenedor{
+    display: grid; 
+    height: 100vh;
+    /* grid-template-columns: 300px 2fr 1fr 1fr; */
+    grid-template-columns: repeat(3,1fr);
+    grid-template-rows: repeat(3,1fr) repeat(1,2fr)
+}
+.item{
+    background: rgb(166, 255, 0);
+    border: 1px solid white;
+    font-family: 'Courier New', Courier, monospace;
+    text-align: center;
+} 
+
+.uno{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 3;
+}
+
+.dos{
+    grid-column: 2/4;
+    grid-row: 1/3;
+    
+}

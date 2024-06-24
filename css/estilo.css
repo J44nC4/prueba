@@ -1,0 +1,25 @@
+*{
+    background-color: #315959;
+    box-sizing: content-box;
+}
+nav ul li{
+    margin: 35px;
+    padding: 25px;
+    font-size: 24px;
+    text-align: center;
+color: #99BFBB;
+background: #8C3730;
+justify-content: space-between
+}
+footer p{
+    background: #8C3730;
+}
+p{
+    font-style: italic;
+    font-size: 25px;
+    color: #A63D33 ;
+    text-align: left;
+}
+h1{
+    color: #99BFBB;
+}

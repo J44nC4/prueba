@@ -1,0 +1,35 @@
+
+.fondo {
+    background-image: url('../IMG/img1.jpg');
+    background-size: cover;
+    background-position: center;
+    justify-content: top;
+    align-items: center;
+    height: 50vh;
+    width: 100dvw;
+    display: flex;
+}
+
+#caja1 {
+    width: 100px;
+    height: 70px;
+    display: block;
+    background: #444;
+    float: left;
+}
+
+#caja2 {
+    width: 150px;
+    height: 100px;
+    display: block;
+    background: #444;
+    float: left;
+}
+
+#caja3 {
+    width: 130px;
+    height: 90px;
+    display: block;
+    background: #444;
+    float: left;
+}

@@ -1,0 +1,31 @@
+.box{
+    width: 200px;
+    height: 200px;
+    border: solid; 
+    margin: 2%;  
+}
+.box1{
+    width: 200px;
+    height: 300px;
+    border: solid;
+    display: inline-table;
+}
+.caja1{
+    background: linear-gradient(red, black ); /* Gradiente Lineal De arriba a abajo (esto es por defecto) */
+}
+.caja2{
+    position: absolute;
+    background: linear-gradient(to right, red , black); /* Gradiente Lineal - De izquierda a derecha */
+}
+.caja3{
+    background: linear-gradient(to bottom right, red, black); /* Gradiente Lineal - Diagonal */
+}
+.caja4{
+    background: linear-gradient(-90deg, red, black ); /* El uso de ángulos */
+}
+.caja5{
+    background: linear-gradient(red, black, white ); 
+}
+.caja6{
+    background: linear-gradient(to right , rgba(255,0,0,0), rgba( 255,0,0,1)); /* El uso de Transparencia */
+}
